@@ -67,8 +67,8 @@ set formatoptions+=r
 
 " Highlights "{{{
 " ---------------------------------------------------------------------
+set guicursor+=a:-Cursor-blinkwait145-blinkoff120-blinkon145
 set cursorline
-"set cursorcolumn
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
@@ -144,13 +144,13 @@ endif
 "}}}
 
 " Extras "{{{
+imap <C-Del> X<Esc>ce
 " ---------------------------------------------------------------------
 set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
 " Nerd Tree 
-nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
