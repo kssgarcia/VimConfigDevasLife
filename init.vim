@@ -24,7 +24,6 @@ set laststatus=2
 set scrolloff=10
 set expandtab
 "let loaded_matchparen = 1
-set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
 
 " incremental substitution (neovim)
@@ -126,7 +125,7 @@ runtime ./maps.vim
 
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
-
+autocmd! BufNewFile,BufRead *.vs,*.fs set ft=glsl
 " true color
 if exists("&termguicolors") && exists("&winblend")
   syntax enable
@@ -138,7 +137,7 @@ if exists("&termguicolors") && exists("&winblend")
   " Use NeoSolarized
   let g:neosolarized_termtrans=1
   runtime ./colors/NeoSolarized.vim
-  colorscheme NeoSolarized
+  colorscheme tokyonight
 endif
 
 "}}}
@@ -162,3 +161,7 @@ nmap <F8> :TagbarToggle<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
+
+" Emmet command
+let g:user_emmet_leader_key='<C-M>'
+
