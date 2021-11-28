@@ -10,6 +10,7 @@ if !1 | finish | endif
 
 set nocompatible
 set number
+set relativenumber
 syntax enable
 set fileencodings=utf-8,sjis,euc-jp,latin
 set encoding=utf-8
@@ -163,5 +164,4 @@ let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
 " Emmet command
-let g:user_emmet_leader_key='<C-M>'
-
+let g:user_emmet_leader_key=','
