@@ -138,9 +138,9 @@ if exists("&termguicolors") && exists("&winblend")
   " Use NeoSolarized
   let g:neosolarized_termtrans=1
   runtime ./colors/NeoSolarized.vim
+  let g:tokyonight_style = "night"
   colorscheme tokyonight
 endif
-
 "}}}
 
 " Extras "{{{
