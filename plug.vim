@@ -37,6 +37,7 @@ if has("nvim")
   Plug 'ray-x/lsp_signature.nvim'
   Plug 'akinsho/toggleterm.nvim'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'nvim-treesitter/playground'
 endif
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
