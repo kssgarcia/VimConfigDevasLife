@@ -13,11 +13,6 @@ enable = true
     autotag = {
     enable = true
     },
-  query_linter = {
-  enable = true,
-  use_virtual_text = true,
-  lint_events = {"BufWrite", "CursorHold"},
-  },
 playground = {
 enable = true,
 disable = {},
