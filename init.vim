@@ -165,3 +165,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 " Emmet command
 let g:user_emmet_leader_key=','
+
+" Git sign
+lua require('gitsigns').setup()
+
