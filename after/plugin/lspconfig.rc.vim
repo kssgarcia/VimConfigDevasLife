@@ -95,12 +95,6 @@ nvim_lsp.flow.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.tsserver.setup {
-  on_attach = on_attach,
-  filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
-  capabilities = capabilities
-}
-
 nvim_lsp.diagnosticls.setup {
   on_attach = on_attach,
   filetypes = { 'javascript', 'javascriptreact', 'json', 'typescript', 'typescriptreact', 'css', 'less', 'scss', 'markdown', 'pandoc' },
@@ -130,8 +124,6 @@ nvim_lsp.diagnosticls.setup {
     filetypes = {
       javascript = 'eslint',
       javascriptreact = 'eslint',
-      typescript = 'eslint',
-      typescriptreact = 'eslint',
     },
     formatters = {
       eslint_d = {
@@ -154,8 +146,6 @@ nvim_lsp.diagnosticls.setup {
       json = 'prettier',
       scss = 'prettier',
       less = 'prettier',
-      typescript = 'prettier',
-      typescriptreact = 'prettier',
       json = 'prettier',
       markdown = 'prettier',
     }

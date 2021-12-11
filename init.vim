@@ -67,8 +67,10 @@ set formatoptions+=r
 
 " Highlights "{{{
 " ---------------------------------------------------------------------
+set guicursor=r-cr-o:hor20
 set guicursor+=a:-Cursor-blinkwait145-blinkoff120-blinkon145
 set cursorline
+"set cursorcolumn
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
@@ -138,8 +140,8 @@ if exists("&termguicolors") && exists("&winblend")
   " Use NeoSolarized
   let g:neosolarized_termtrans=1
   runtime ./colors/NeoSolarized.vim
-  let g:tokyonight_style = "night"
-  colorscheme tokyonight
+  "let g:tokyonight_style = "night"
+  colorscheme NeoSolarized
 endif
 "}}}
 
