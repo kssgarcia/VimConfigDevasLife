@@ -59,4 +59,3 @@ nmap <C-w><up> <C-w>+
 nmap <C-w><left> :vertical resize +3 <C-w><
 nmap <C-w><right> <C-w>>
 nmap <C-w><down> <C-w>-
-

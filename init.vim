@@ -140,8 +140,8 @@ if exists("&termguicolors") && exists("&winblend")
   " Use NeoSolarized
   let g:neosolarized_termtrans=1
   runtime ./colors/NeoSolarized.vim
+  colorscheme sierra
   "let g:tokyonight_style = "night"
-  colorscheme NeoSolarized
 endif
 "}}}
 
@@ -167,7 +167,3 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 " Emmet command
 let g:user_emmet_leader_key=','
-
-" Git sign
-lua require('gitsigns').setup()
-

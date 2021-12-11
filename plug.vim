@@ -11,6 +11,8 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/tikhomirov/vim-glsl'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'https://github.com/folke/tokyonight.nvim'
+Plug 'https://github.com/AlessandroYorba/Sierra'
+Plug 'https://github.com/yuttie/comfortable-motion.vim'
 if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
   Plug 'kristijanhusak/defx-git'
@@ -31,7 +33,6 @@ if has("nvim")
   Plug 'onsails/lspkind-nvim'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
-  Plug 'lewis6991/gitsigns.nvim'
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'windwp/nvim-autopairs'
   Plug 'ray-x/lsp_signature.nvim'
@@ -41,4 +42,5 @@ if has("nvim")
 endif
 
 call plug#end()
-
+"Plug 'lewis6991/gitsigns.nvim'
+"Plug 'https://github.com/psliwka/vim-smoothie'
