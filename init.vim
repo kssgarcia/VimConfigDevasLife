@@ -70,6 +70,7 @@ set formatoptions+=r
 set guicursor=r-cr-o:hor20
 set guicursor+=a:-Cursor-blinkwait145-blinkoff120-blinkon145
 set cursorline
+
 "set cursorcolumn
 
 " Set cursor line color on visual mode
