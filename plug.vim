@@ -12,6 +12,8 @@ Plug 'https://github.com/tikhomirov/vim-glsl'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'https://github.com/folke/tokyonight.nvim'
 Plug 'https://github.com/AlessandroYorba/Sierra'
+Plug 'https://github.com/AlessandroYorba/Arcadia'
+Plug 'https://github.com/AlessandroYorba/Despacio'
 Plug 'https://github.com/yuttie/comfortable-motion.vim'
 if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
