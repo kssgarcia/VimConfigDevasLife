@@ -40,6 +40,8 @@ if has("nvim")
   Plug 'akinsho/toggleterm.nvim'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'nvim-treesitter/playground'
+  Plug 'https://github.com/Yggdroot/indentLine'
+  Plug 'https://github.com/norcalli/nvim-colorizer.lua'
 endif
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
