@@ -136,10 +136,11 @@ if exists("&termguicolors") && exists("&winblend")
   set pumblend=5
   set background=dark
   " Use NeoSolarized
-  let g:neosolarized_termtrans=1
-  runtime ./colors/NeoSolarized.vim
+  "let g:neosolarized_termtrans=1
+  "runtime ./colors/NeoSolarized.vim
   let g:tokyonight_style = "night"
-  colorscheme tokyonight
+  colorscheme despacio
+  hi Normal guibg=NONE ctermbg=NONE
 endif
 "}}}
 
@@ -165,6 +166,8 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 " Emmet command
 let g:user_emmet_leader_key=','
+" Pythn provider
+let g:python3_host_prog = 'C:/Users/57312/AppData/Local/Programs/Python/Python39/python'
 
 " Git sign
 lua require('gitsigns').setup()

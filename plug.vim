@@ -11,6 +11,8 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/tikhomirov/vim-glsl'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'https://github.com/folke/tokyonight.nvim'
+Plug 'https://github.com/psliwka/vim-smoothie'
+Plug 'https://github.com/AlessandroYorba/Despacio'
 if has("nvim")
   Plug 'hoob3rt/lualine.nvim'
   Plug 'kristijanhusak/defx-git'
