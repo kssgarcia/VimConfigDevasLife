@@ -21,11 +21,12 @@ set nobackup
 set hlsearch
 set showcmd
 set cmdheight=1
-set laststatus=2
-set scrolloff=10
 set expandtab
+set laststatus=2 
+set scrolloff=10
 "let loaded_matchparen = 1
 set backupskip=/tmp/*,/private/tmp/*
+set mouse=a
 
 " incremental substitution (neovim)
 if has('nvim')
@@ -139,7 +140,7 @@ if exists("&termguicolors") && exists("&winblend")
   "let g:neosolarized_termtrans=1
   "runtime ./colors/NeoSolarized.vim
   let g:tokyonight_style = "night"
-  colorscheme despacio
+  colorscheme gotham
   hi Normal guibg=NONE ctermbg=NONE
 endif
 "}}}
